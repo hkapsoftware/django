@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+header {
+  display: flexbox;
+  justify-content: start;
+  background-color: rgba(41, 161, 135, 0.548);
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to left top, rgba(40, 180, 133, 0.8), rgba(126, 213, 111, 0.8)), url("img/cars.jpg") top;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem; }
+  .navigation__cont {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff; }
+  .navigation__liste {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 10%; }
+  .navigation__reference {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff; }
+
+.afficher {
+  text-transform: uppercase;
+  font-weight: 1000;
+  color: #fff;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.titre {
+  font-size: 3.5rem;
+  letter-spacing: 0.5em;
+  text-align: center; }
+
+.conteneur {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px; }
